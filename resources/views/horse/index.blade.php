@@ -17,22 +17,22 @@
   <div class="col-lg-4">
 
       <div class="card shadow">
-        <a href="horse/{{ $row->id }}">
+        <a href="horse/{{ $row->id }}" class="text-decoration-none hover-zoom">
           <img src="{{ asset('storage/images/'.$row->image) }}" class="card-img-top img-fluid">
+            <div class="card-body">
+            <p class="btn btn-success rounded-pill btn-sm">{{ $row->id }}</p>
+            <div class="card-title fw-bold text-primary h4">Name: {{ $row->name }}</div>
+            <div class="text-secondary h5">Colour: {{ $row->colour }}</div>
+            <div class="text-secondary h5">Age: {{ $row->age }}</div>
+            <div class="text-secondary h5">Country: {{ $row->country }}</div>
+            <div class="text-secondary h5">Sex: {{ $row->sex }}</div>
+            <div class="text-secondary h5">Father: {{ $row->father }}</div>
+            <div class="text-secondary h5">Mother: {{ $row->mother }}</div>
+            <div class="text-secondary h5">Microchip No:{{ $row->microNo }}</div>
+            <div class="text-secondary h5">Passport No:{{ $row->passportNo }}</div>
+            <p class="text-secondary">{{ Str::limit($row->content, 100) }}</p>
+            </div>
         </a>
-        <div class="card-body">
-          <p class="btn btn-success rounded-pill btn-sm">{{ $row->id }}</p>
-          <div class="card-title fw-bold text-primary h4">Name: {{ $row->name }}</div>
-          <div class="text-secondary h5">Colour: {{ $row->colour }}</div>
-          <div class="text-secondary h5">Age: {{ $row->age }}</div>
-          <div class="text-secondary h5">Country: {{ $row->country }}</div>
-          <div class="text-secondary h5">Sex: {{ $row->sex }}</div>
-          <div class="text-secondary h5">Father: {{ $row->father }}</div>
-          <div class="text-secondary h5">Mother: {{ $row->mother }}</div>
-          <div class="text-secondary h5">Microchip No:{{ $row->microNo }}</div>
-          <div class="text-secondary h5">Passport No:{{ $row->passportNo }}</div>
-          <p class="text-secondary">{{ Str::limit($row->content, 100) }}</p>
-        </div>
       </div>
 
   </div>

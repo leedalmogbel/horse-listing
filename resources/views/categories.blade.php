@@ -28,41 +28,39 @@
                     <div class="grid max-w-lg gap-5 mx-auto lg:grid-cols-5 lg:max-w-none">
                         <!-- START: TRAINER LIST -->
                         <div class="flex flex-col overflow-hidden rounded-lg shadow-2xl p-5 border-2 border-emerald-900/75 transform transition duration-500 hover:scale-110">
-                            <a href="{{ route('categories')}}">
-                                <div class="flex justify-center">
-                                    <div class="bg-gradient-to-r from-hGreen to-lGreen border-2 border-emerald-900/75 border-outset rounded-lg p-1 outer__border">
-                                        <div class="bg-gradient-to-r from-hGreen to-lGreen border-2 border-emerald-900/75 border-outset rounded-lg p-1 inner__border">
-                                            <img class="object-contain w-full h-48" src="{{ asset('storage/images/sample_trainer_logo.png') }}" alt="">
-                                        </div>
+                            <div class="flex justify-center">
+                                <div class="bg-gradient-to-r from-hGreen to-lGreen border-2 border-emerald-900/75 border-outset rounded-lg p-1 outer__border">
+                                    <div class="bg-gradient-to-r from-hGreen to-lGreen border-2 border-emerald-900/75 border-outset rounded-lg p-1 inner__border">
+                                        <img class="object-contain w-full h-48" src="{{ asset('storage/images/sample_trainer_logo.png') }}" alt="">
                                     </div>
                                 </div>
-                                <div class="flex flex-col justify-between flex-1 p-6">
-                                    <div class="flex-1">
-                                    <a href="#" class="block mt-2">
-                                        <p class="text-center text-xl font-bold text-white">المدرب - علي خرفان</p>
-                                        <p class="text-center  text-xl font-bold text-white">Trainer -  Ali Kharfan</p>
+                            </div>
+                            <div class="flex flex-col justify-between flex-1 p-6">
+                                <div class="flex-1">
+                                <a href="#" class="block mt-2">
+                                    <p class="text-center text-xl font-bold text-white">المدرب - علي خرفان</p>
+                                    <p class="text-center  text-xl font-bold text-white">Trainer -  Ali Kharfan</p>
+                                </a>
+                                </div>
+                                <div class="flex items-center mt-6">
+                                <div class="">
+                                    <a href="https://twitter.com/Mike_Andreuzza">
+                                    <!-- <span class="sr-only">Michael Andreuzza</span>
+                                    <img class="w-10 h-10 rounded-full" src="https://d33wubrfki0l68.cloudfront.net/2f76102fd18a4e095eaed7a836a3f2183a982a4d/91dd4/images/avatar.jpg" alt=""> -->
                                     </a>
-                                    </div>
-                                    <div class="flex items-center mt-6">
-                                        <div class="">
-                                            <a href="https://twitter.com/Mike_Andreuzza">
-                                            <!-- <span class="sr-only">Michael Andreuzza</span>
-                                            <img class="w-10 h-10 rounded-full" src="https://d33wubrfki0l68.cloudfront.net/2f76102fd18a4e095eaed7a836a3f2183a982a4d/91dd4/images/avatar.jpg" alt=""> -->
-                                            </a>
-                                        </div>
-                                        <div class="ml-3">
-                                            <!-- <p class="text-sm font-medium text-neutral-600">
-                                            <a href="https://twitter.com/Mike_Andreuzza" class="hover:underline"> Michaerl Andreuzza</a> -->
-                                            </p>
-                                            <div class="flex space-x-1 text-sm text-gray-500">
-                                            <!-- <time datetime="2020-03-16"> Mar 16, 2020 </time>
-                                            <span aria-hidden="true"> · </span>
-                                            <span> 6 min read </span> -->
-                                            </div>
-                                        </div>
+                                </div>
+                                <div class="ml-3">
+                                    <!-- <p class="text-sm font-medium text-neutral-600">
+                                    <a href="https://twitter.com/Mike_Andreuzza" class="hover:underline"> Michaerl Andreuzza</a> -->
+                                    </p>
+                                    <div class="flex space-x-1 text-sm text-gray-500">
+                                    <!-- <time datetime="2020-03-16"> Mar 16, 2020 </time>
+                                    <span aria-hidden="true"> · </span>
+                                    <span> 6 min read </span> -->
                                     </div>
                                 </div>
-                            </a>
+                                </div>
+                            </div>
                         </div>
                         <!-- END: TRAINER LIST -->
                         <div class="flex flex-col overflow-hidden rounded-lg shadow-2xl p-5 border-2 border-emerald-900/75 transform transition duration-500 hover:scale-110">

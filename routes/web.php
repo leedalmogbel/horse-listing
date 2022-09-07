@@ -17,4 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/categories', function () {
+    return view('categories');
+})->name('categories');
+
 Route::resource('horse', 'App\Http\Controllers\HorseController');
